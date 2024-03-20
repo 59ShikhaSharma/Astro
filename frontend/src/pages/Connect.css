@@ -1,0 +1,117 @@
+  /* .connect-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #023020;
+  }
+  
+  .guru-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .guru-card {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .guru-card:hover{
+   transform: scale(1.2);
+   background-color:black;
+   color:white;
+  }
+  
+  .guru-card h2 {
+    margin-bottom: 10px;
+  }
+  
+  .whatsapp-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  
+  .footer-div{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    width: 98.5%;
+
+  } */
+
+  /* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap'); /* Cinzel */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); /* Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap'); /* Roboto Slab */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap'); /* Lora */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap'); /* Alegreya */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap'); /* Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); /* Oswald */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); /* Amatic SC */
+
+/* Styles for main container */
+.connect-container {
+  font-family: 'Cinzel', serif; /* Cinzel as the main font with fallback to serif */
+  background-color: #0E1428; /* Deep Blue - Represents the night sky */
+  color:white;
+  text-align: center;
+}
+
+/* Styles for cards container */
+.guru-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+/* Styles for individual cards */
+.guru-card {
+  width: 250px;
+  background-color: #3A3D6C; /* Indigo - Associated with intuition and spirituality */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  color:white
+}
+
+/* Hover effect for cards */
+.guru-card:hover {
+  transform: scale(1.05);
+  background-color: #1E1E1E; /* Darker shade for a mystical effect */
+  color: #fff;
+}
+
+/* Styles for headings within cards */
+.guru-card h2 {
+  margin-bottom: 10px;
+  font-family: 'Merriweather', serif; /* Merriweather for headings with fallback to serif */
+  color: whitesmoke; /* Gold - Represents enlightenment and celestial connection */
+}
+
+/* Styles for WhatsApp icon */
+.whatsapp-icon {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+/* Styles for footer */
+.footer-div {
+  text-align: center;
+  padding: 10px;
+  background-color: #1C2A2A; /* Dark Teal - Represents depth and tranquility */
+  color: #fff;
+  width: 98.5%;
+}

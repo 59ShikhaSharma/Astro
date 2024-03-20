@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@700&family=Noto+Serif:ital@1&family=Protest+Revolution&family=Sofia+Sans:ital,wght@1,300&family=Vollkorn:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@700&family=Noto+Serif:ital@1&family=Protest+Revolution&family=Satisfy&family=Sofia+Sans:ital,wght@1,300&family=Vollkorn:ital,wght@1,500&display=swap');
+
+body {
+  /* background: white; */
+  background: darkorange;
+  /* background-image: linear-gradient(270deg, white 50%, orange 50%); */
+  /* width: 500px; */
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form button {
+  background: rgb(2, 34, 64);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+  /* font-size: 15px; */
+}
+
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid #e7195a;
+  color: #e7195a;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+input.error{
+  border: 1px solid #e7195a;
+}
+
+nav{
+  display:flex;
+  align-items: center;
+}
+
+nav a {
+  margin-left: 10px;
+}
+
+nav button {
+  background: #fff;
+  color: rgb(2, 34, 64);
+  border: 2px solid rgb(2, 34, 64);
+  padding: 6px, 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+nav button:hover{
+  background: rgb(2, 34, 64);
+  color: white;
+}
+
+.login-container{
+  margin-top: 50px;
+  margin-left: 30px;
+  height: 500px;
+}
+
+.login, .signup{
+  max-width: 500px;
+  position: relative;
+  left: 800px;
+  bottom: 450px;
+}
+
+.log{
+  color: rgb(2, 34, 64);
+  font-size: 40px;
+  font-family: monospace;
+}
+
+.head-zodiac{
+  font-family: "Satisfy", cursive;
+}
+
+.nav-contents-log-sign{
+  position: relative;
+  right: 200px;
+}
+
+.log-name, .sign-name{
+  font-family: cursive;
+  margin: 0 90px 0 0 ;
+}
+
+.log-name:hover, .sign-name:hover{
+    border-bottom: 4px solid rgb(2, 34, 64); 
+    border-radius: 2px;
+    /* padding: 1px; */
+    color: rgb(2, 34, 64);
+}
+
+.unit-logo2{
+  position: relative;
+  left: 150px;
+  bottom: 18px;
+  animation: spin 20s infinite linear;
+}
+
+.avtar{
+  height: 35px;
+  /* width: 35px; */
+  position: relative;
+  top: 10px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.photo-logout{
+  position: relative;
+  bottom: 15px;
+}
+
+.navbar{
+
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+}

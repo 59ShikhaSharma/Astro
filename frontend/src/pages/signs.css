@@ -1,0 +1,54 @@
+.card-container {
+  perspective: 1000px;
+  height: 350px;
+  width: 250px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.card-container:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1500ms;
+  position: relative;
+}
+
+.card-front,.card-back {
+  height: 100%;
+  width: 100%; 
+  border-radius: 1rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  background-image: url(https://png.pngtree.com/png-vector/20210727/ourmid/pngtree-mysterious-element-of-magic-sword-png-image_3731340.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items:left;
+  padding :1.5rem;
+  
+}
+
+.card-back h2{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+

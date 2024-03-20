@@ -1,0 +1,101 @@
+
+{
+    "zodiac_signs": [
+      {
+        "name": "Aries",
+        "symbol": "♈",
+        "dates": "March 21 - April 19",
+        "element": "Fire",
+        "ruling_planet": "Mars",
+        "qualities": ["Courageous", "Determined", "Confident"]
+      },
+      {
+        "name": "Taurus",
+        "symbol": "♉",
+        "dates": "April 20 - May 20",
+        "element": "Earth",
+        "ruling_planet": "Venus",
+        "qualities": ["Patient", "Practical", "Reliable"]
+      },
+      {
+        "name": "Gemini",
+        "symbol": "♊",
+        "dates": "May 21 - June 20",
+        "element": "Air",
+        "ruling_planet": "Mercury",
+        "qualities": ["Adaptable", "Curious", "Intellectual"]
+      },
+      {
+        "name": "Cancer",
+        "symbol": "♋",
+        "dates": "June 21 - July 22",
+        "element": "Water",
+        "ruling_planet": "Moon",
+        "qualities": ["Intuitive", "Emotional", "Protective"]
+      },
+      {
+        "name": "Leo",
+        "symbol": "♌",
+        "dates": "July 23 - August 22",
+        "element": "Fire",
+        "ruling_planet": "Sun",
+        "qualities": ["Passionate", "Generous", "Confident"]
+      },
+      {
+        "name": "Virgo",
+        "symbol": "♍",
+        "dates": "August 23 - September 22",
+        "element": "Earth",
+        "ruling_planet": "Mercury",
+        "qualities": ["Practical", "Analytical", "Kind"]
+      },
+      {
+        "name": "Libra",
+        "symbol": "♎",
+        "dates": "September 23 - October 22",
+        "element": "Air",
+        "ruling_planet": "Venus",
+        "qualities": ["Diplomatic", "Charming", "Fair-minded"]
+      },
+      {
+        "name": "Scorpio",
+        "symbol": "♏",
+        "dates": "October 23 - November 21",
+        "element": "Water",
+        "ruling_planet": "Pluto",
+        "qualities": ["Passionate", "Resourceful", "Determined"]
+      },
+      {
+        "name": "Sagittarius",
+        "symbol": "♐",
+        "dates": "November 22 - December 21",
+        "element": "Fire",
+        "ruling_planet": "Jupiter",
+        "qualities": ["Adventurous", "Optimistic", "Straightforward"]
+      },
+      {
+        "name": "Capricorn",
+        "symbol": "♑",
+        "dates": "December 22 - January 19",
+        "element": "Earth",
+        "ruling_planet": "Saturn",
+        "qualities": ["Responsible", "Disciplined", "Ambitious"]
+      },
+      {
+        "name": "Aquarius",
+        "symbol": "♒",
+        "dates": "January 20 - February 18",
+        "element": "Air",
+        "ruling_planet": "Uranus",
+        "qualities": ["Independent", "Intellectual", "Humanitarian"]
+      },
+      {
+        "name": "Pisces",
+        "symbol": "♓",
+        "dates": "February 19 - March 20",
+        "element": "Water",
+        "ruling_planet": "Neptune",
+        "qualities": ["Compassionate", "Intuitive", "Artistic"]
+      }
+    ]
+  }
