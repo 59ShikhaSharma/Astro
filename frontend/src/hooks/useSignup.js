@@ -10,7 +10,7 @@ export const useSignup = () => {
         setIsLoading(true)
         setError(null)
 
-        const response = await fetch('astro-eosin-two.vercel.app/api/user/signup', {
+        const response = await fetch('astro-backend-rho.vercel.app/api/user/signup', {
             method:'POST',
             body: JSON.stringify({email, password}),
             headers:{
