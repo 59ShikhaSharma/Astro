@@ -19,7 +19,7 @@ app.use((req, res, next) => {
 })
 
 //router
-app.use('/api/user', userRoutes)
+app.use('astro-eosin-two.vercel.app', userRoutes)
 
 //Database Connection
 mongoose.connect(process.env.DB_URL)
