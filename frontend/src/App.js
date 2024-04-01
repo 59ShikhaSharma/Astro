@@ -23,13 +23,13 @@ function App() {
           <div className='pages'>
             <Routes>
               <Route path='https://astro-eosin-two.vercel.app/' element={user ? <Home /> : <Navigate to='/login' />} />
-              <Route path='https://astro-eosin-two.vercel.app/signs' element={user ? <Signs /> : <Navigate to='/' />} />
-              <Route path='https://astro-eosin-two.vercel.app/numerology' element={user ? <Numero /> : <Navigate to='/' />} />
-              <Route path='https://astro-eosin-two.vercel.app/api/user/login' element={!user ? <Login /> : <Navigate to='/' />} />
-              <Route path='https://astro-eosin-two.vercel.app/api/user/signup' element={!user ? <SignUp /> : <Navigate to='/' />} />
-              <Route path='https://astro-eosin-two.vercel.app/connect' element={user ? <Connect /> : <Navigate to='/' />} />
-              <Route path='https://astro-eosin-two.vercel.app/about' element={user ? <About /> : <Navigate to='/' />} />
-              <Route path='https://astro-eosin-two.vercel.app/tarot' element={user ? <Tarot /> : <Navigate to='/' />} />
+              <Route path='/signs' element={user ? <Signs /> : <Navigate to='/' />} />
+              <Route path='/numerology' element={user ? <Numero /> : <Navigate to='/' />} />
+              <Route path='/login' element={!user ? <Login /> : <Navigate to='/' />} />
+              <Route path='/signup' element={!user ? <SignUp /> : <Navigate to='/' />} />
+              <Route path='/connect' element={user ? <Connect /> : <Navigate to='/' />} />
+              <Route path='/about' element={user ? <About /> : <Navigate to='/' />} />
+              <Route path='/tarot' element={user ? <Tarot /> : <Navigate to='/' />} />
             </Routes>
           </div>
         </div>
