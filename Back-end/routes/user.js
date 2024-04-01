@@ -4,11 +4,11 @@ const router = express.Router();
 
 
 //login-Route
-router.post('https://astro-eosin-two.vercel.app/login', loginUser)
+router.post('/login', loginUser)
 
 
 //SignUp-Route
-router.post('https://astro-eosin-two.vercel.app/signup', signupUser)
+router.post('/signup', signupUser)
 
 
 module.exports = router;
