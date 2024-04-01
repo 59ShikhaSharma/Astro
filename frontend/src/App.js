@@ -22,7 +22,7 @@ function App() {
           <Navbar />
           <div className='pages'>
             <Routes>
-              <Route path='https://astro-eosin-two.vercel.app/' element={user ? <Home /> : <Navigate to='/login' />} />
+              <Route path='/' element={user ? <Home /> : <Navigate to='/login' />} />
               <Route path='/signs' element={user ? <Signs /> : <Navigate to='/' />} />
               <Route path='/numerology' element={user ? <Numero /> : <Navigate to='/' />} />
               <Route path='/login' element={!user ? <Login /> : <Navigate to='/' />} />
